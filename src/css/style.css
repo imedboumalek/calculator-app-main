@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;  
+    background-color:  hsl(222, 26%, 31%);
+}
+
+
+.the-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+}
+
+.calc {
+    padding-left: 10px;
+}
+
+.text {
+    color: white;
+}
+
+.theTheme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.theme-01 {
+    font-size: 20px;
+}
+
+.theme-btn {
+    padding: 2px ;
+    height: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50px;
+    background-color: hsl(223, 31%, 20%);
+    cursor: pointer;
+}
+
+.circle {
+    height: 10px;
+    background-color: hsl(6, 70%, 34%);
+    width: 10px;
+    border-radius: 50%;
+}
+
+.number-of-theme {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme {
+    width: 50px;
+}
+
+/* the screen style */
+
+.the-screen {
+    width: 500px;
+    height: 100px;
+    background-color: hsl(224, 36%, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.num-screen {
+    font-size: 32px;
+    color: white;
+    padding-right: 20px;
+}
+
+/* the button style */
+
+.all-btn {
+    width: 500px;
+    height: 250px ;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-btn {
+    height: 230px;
+    width: 490px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.range {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.num-btn {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    cursor: pointer;
+    font-size: 20px;
+}
+.del {
+    background-color: hsl(225, 21%, 49%);
+}
+
+.rest-btn {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 21%, 49%);
+    cursor: pointer;
+}
+
+.equal-btn {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(6, 63%, 50%);
+    cursor: pointer;
+}

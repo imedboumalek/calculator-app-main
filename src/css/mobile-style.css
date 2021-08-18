@@ -1,0 +1,33 @@
+@media only screen and (max-width: 376px) {
+    
+    section {
+        width: 360px;
+        height: 500px;
+    }
+
+    .the-head, .the-screen {
+        width: 360px;
+    }
+
+    .all-btn {
+        width: 360px;
+        height: 300px;
+    }
+
+    .the-btn {
+        width: 365px;
+        height: 250px;
+    }
+
+    .num-btn {
+        width: 70px;
+    }
+
+    .rest-btn, .equal-btn {
+        width: 155px;
+    }
+
+
+
+
+}
